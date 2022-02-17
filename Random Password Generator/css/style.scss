@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background: #1C1C1C;
+}
+.container{
+    display: table;
+    border: 1px solid white;
+    border-radius: 6px;
+    background: #1F2937;
+    padding-bottom: 100px;
+    margin: auto;
+    margin-top: 5%;
+    .generator-title{
+        h1{
+            font-weight: 800;
+            font-size: 40px;
+            color: white;
+            span{
+                color:#10B981;
+            }
+        }
+        p{
+            color: #D5D4D8;
+            font-weight: 400;
+            font-size: 20px;
+        }
+
+    }
+    hr{
+        border: 1px solid #2F3E53;
+        width: 90%;
+        margin: auto;
+        margin-top: 50px;
+        margin-left: 30px;
+    }
+    .generate-password{
+        margin-top: 60px;
+        display: flex;
+        justify-content: center;
+        button{
+            background: #10B981;
+            font-size: 16px;
+            font-weight: 500;
+            border-radius: 6px;
+            outline: none;
+            border: none;
+            color: white;
+            cursor: pointer;
+            padding: 10px 25px;
+            &:hover i{
+                transform: rotate(-25deg);
+            }
+            i{
+                transition: 0.3s all ease-in-out;
+                color: white;
+            }
+        }
+        input{
+            padding: 9px 17px 9px 15px;
+            font-size: 16px;
+            border-radius: 6px;
+            outline: none;
+            border: none;
+        }
+    }
+}
+.password-title-parent{
+    padding-top: 60px;
+    padding-left: 30px;
+}
+
+.passwords{
+    margin-top: 30px;
+    display: grid;
+    justify-content: space-around;
+    align-content: center;
+    grid-template-columns: 10% 10% 10% 10%;
+    h4{
+        background: #273549;
+        border-radius: 6px;
+        font-weight: 800;
+        font-size: 20px;
+        color: #10B981;
+        word-break: break-all;
+        width: 150px;
+        text-align: center;
+        margin-top: 23px;
+        padding: 5px 10px;
+        cursor: pointer;
+    }
+}
+
+.parent{
+    width: 90%;
+}
